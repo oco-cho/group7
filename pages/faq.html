@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" id="FAQheight">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="List of San Diego Festival FAQ's">
+    <meta name="keywords" content="FAQ's, student discount, rain or shine, tickets, refund, parking, public transporation, lost and found, booths, food, safety guidelines, zero tolerance policy, alcohol policies, refunds, handicap accessible, meter parking, cancellation policy, dates, times">
+    <meta name="author" content="Mark Timbone">
+    <title>San Diego Spirits Festival | FAQ</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+    <link rel="stylesheet" href="../styles/style.css">
+    
+    <!--Emily: Embedding the header background image was the only solution I could come up with for the problem I had, which was there was a flicker each time you visited the page due to image loading time. Image is optimized. I think Google Font & Font Awesome loading before the image cause the delay--> 
+    
+    <style>
+        header.main {background: url(../images/headerBG-mobile.jpg) no-repeat top center #1d2f3b;}
+        
+        @media screen and (min-width: 796px) {
+            
+            header.main {
+                background: url(../images/headerBG.jpg) no-repeat top center #1d2f3b;
+                background-size: cover;
+                }
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="main">
+            <h1><a href="../index.html"><img src="../images/logo-4.svg" alt="SD Spirits Festival Logo"></a></h1>
+            <div class="btn">
+                <a href="checkout01.html">Buy Now</a>
+            </div>
+            <nav>
+                <label for="showMenu"><span class="fas fa-bars" aria-hidden="true"></span></label>
+                <input type="checkbox" id="showMenu" role="button">
+                <ul class="mainMenu" id="faqPg">
+                    <li>
+                        <a class="centerMenu" href="event.html">Event <span class="caretDown hideMe"></span></a><label for="showSubmenuEvent"><span class="caretDown"></span></label><input type="checkbox" id="showSubmenuEvent">
+                        <ul id="sub1"><li><a href="pastEvents.html">Past Events</a></li></ul>
+                    </li>
+                    <li><a href="tickets.html">Tickets</a></li>
+                    <li><a href="competition.html">Competition</a></li>
+                    <li><a href="exhibitors.html">Exhibitors</a></li>
+                    <li><a href="sponsors.html">Sponsors</a></li>
+                    <li>     
+                    <a class="centerMenu" href="aboutUs.html">About Us <span class="caretDown hideMe"></span></a><label for="showSubmenuAbout"><span class="caretDown"></span></label>
+                    <input type="checkbox" id="showSubmenuAbout">
+                    <ul id="sub2"><li><a href="contactUs.html" class="drop">Contact Us</a></li></ul>
+                    </li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main class="default">
+		
+		<div id="FAQ"> 
+		<h1>FAQ: </h1>
+		<ol> 
+		<li>What is your alcohol policies? You must be 21 years of old to attend this event. Bringing your own alcohol is prohibited. Purchased alcohols must be consumed in the event. Open bottles are not allowed to leave the event.</li>
+		
+		<li>What is your safety guidelines? We have zero disturbance tolerance.  No guns or any other sorts of vapors are allowed to enter in the event. </li> 
+		
+		<li>Is there a rain or shine policy? No, we offer indoor and outdoor booths so in case of rain you can enjoy our indoor area.</li>
+		
+		<li>Can I buy tickets at the door? Yes, but we recommend to buy your tickets in advance. Ticket availabilities will be based on first come first served.</li>
+		
+		<li>How can I request a refund? All sales are final unless San Diego Spirit cancels the even due to COVID-19 government guidelines</li>
+		
+		<li>Is this event handicap accessible? Yes, most indoor and our door areas are wheelchair accessible. There is limited handicap parking is available near the gate.</li>
+		
+		<li>How can I buy tickets? You can buy tickets online by clicking on Tickets or you can purchase them via third-party vendors or at the door.</li>
+			
+		<li>Where can I park my car? We recommend to use public transportations or rideshare to commute but there is private parking a block away from the gate use Limited Metered Parking– There is limited metered parking available on many of the surface streets in the area. All meters are $1.25 an hour; Check max times before paying the meter.</li>
+		
+		<li>Is there a student discount? We do not offer any student discounts, but we offer group discounts; if you purchase 10 or more tickets.    </li>    
+								
+		<li>I lost something What should I do next? All lost and found items will be kept at the main gate during the event. We highly recommend not to bring anything of high value with yourself. Valuables will be held for 30 days and then donated to a local charity. Fast Forward Events will not be held liable for any unclaimed items. You can also email us (info@SanDiegoSpiritsFestival.com) to arrange a pickup. </li> 
+		</ol>
+       </div> 
+
+    </main>
+
+       
+       
+       <footer>
+        <div class="footer">
+            <div class="footerBlock">
+                <div class="blocks">
+                    <h4>Connect with us</h4>
+                    <p>
+                        <a href="https://www.instagram.com/sdspiritsfestival/"><img src="../images/instagram.svg" alt="instagram icon"></a>
+                        <a href="https://twitter.com/spiritsfestival"><img src="../images/twitter.svg" alt="twitter icon"></a>
+                        <a href="https://www.facebook.com/SanDiegoSpiritsFestival"><img src="../images/facebook.svg" alt="facebook icon"></a>
+                        <a href="https://www.pinterest.com/spiritsfestival/"> <img src="../images/pinterest.svg" alt="pinterest icon"></a>
+                    </p>
+                    <p><a href="mailto:info@sandiegospiritsfestival.com.com">email: sandiegospiritsfestival.com</a></p>
+                    <p><a href="faq.html">Have a question? Check out our FAQ page.</a></p>
+                </div>
+                <div class="blocks">
+                    <form action="#" method="post" id="newsletter">
+                        <h4>
+                            <label for="newsletterEmail">Subscribe</label>
+                        </h4>
+                        <div class="newsletterInput"><input type="email" name="newsletterEmail" id="newsletterEmail" placeholder="Email address..." required><button type="submit" value="submit"><i class="fas fa-arrow-right"></i></button></div>
+                        <p>Subscribe to receive the latest announcements, networking invitations &amp; more!</p>
+                    </form>
+                </div>
+            </div>
+            <p>Copyright &copy; 2020 FEWD1 Group 7</p>
+        </div>
+    </footer>
+                
+    
+</body>
+</html>

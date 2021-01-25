@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Description of company, founder biography">
+    <meta name="keywords" content="about us, owner biography, founder, history, company, company history, event, spirits, festival, alcohol, San Diego">
+    <meta name="author" content="Mehrzad Hendi">
+    <title>San Diego Spirits Festival | About Us</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+    <link rel="stylesheet" href="../styles/style.css">
+    
+    <!--Emily: Embedding the header background image was the only solution I could come up with for the problem I had, which was there was a flicker each time you visited the page due to image loading time. Image is optimized. I think Google Font & Font Awesome loading before the image cause the delay--> 
+    
+    <style>
+        header.main {background: url(../images/headerBG-mobile.jpg) no-repeat top center #1d2f3b;}
+        
+        @media screen and (min-width: 796px) {
+            
+            header.main {
+                background: url(../images/headerBG.jpg) no-repeat top center #1d2f3b;
+                background-size: cover;
+                }
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="main">
+            <h1><a href="../index.html"><img src="../images/logo-4.svg" alt="SD Spirits Festival Logo"></a></h1>
+            <div class="btn">
+                <a href="checkout01.html">Buy Now</a>
+            </div>
+            <nav>
+                <label for="showMenu"><span class="fas fa-bars" aria-hidden="true"></span></label>
+                <input type="checkbox" id="showMenu" role="button">
+                <ul class="mainMenu" id="aboutUsPg">
+                    <li>
+                        <a class="centerMenu" href="event.html">Event <span class="caretDown hideMe"></span></a><label for="showSubmenuEvent"><span class="caretDown"></span></label><input type="checkbox" id="showSubmenuEvent">
+                        <ul id="sub1"><li><a href="pastEvents.html">Past Events</a></li></ul>
+                    </li>
+                    <li><a href="tickets.html">Tickets</a></li>
+                    <li><a href="competition.html">Competition</a></li>
+                    <li><a href="exhibitors.html">Exhibitors</a></li>
+                    <li><a href="sponsors.html">Sponsors</a></li>
+                    <li>     
+                    <a class="centerMenu" href="aboutUs.html">About Us <span class="caretDown hideMe"></span></a><label for="showSubmenuAbout"><span class="caretDown"></span></label>
+                    <input type="checkbox" id="showSubmenuAbout">
+                    <ul id="sub2"><li><a href="contactUs.html" class="drop">Contact Us</a></li></ul>
+                    </li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+       <main class="aboutUs">
+
+        <section>
+            <h2>About Us</h2>
+            <p>San Diego Spirits Festival is THE major cocktail Culinary and Cultural extravaganza celebrated annually each summer on San Diego Bay. The goal of the San Diego Spirits Festival is to advance the industry and all that it encompasses via market launches, industry advancement and exposure, product innovation, education, and of course, a good time filled with entertainment camaraderie and just good fun.</p>
+        </section>
+
+        <article class="img1">
+            <img src="../images/friends-drinking-6.jpg" id="image1" alt="">
+        </article>
+
+        <article class="text2">
+            <p>We are proud to claim that the San Diego Spirits Festival has been ranked as one of the top cocktail festivals in America by Fodor’s!</p>
+            <p>The two-day Cocktail Festival attracts thousands of people from all over the country and abroad who join the fun and entertainment that the San Diego Spirits Festival has to offer. It's diverse, it's exciting, and it's San Diego through and through.</p>
+        </article>
+
+        <article class="img2">
+            <img src="../images/owner.jpg" alt="Photo of Liz Edwards Founder">
+        </article>
+
+        <article class="text3">
+            <h2>About the Founder</h2>
+            <p>Event organizer and founder Liz Edwards has high expectations for the festival. Since its launch in San
+                Diego in 2009, the venues have changed, the competitions have intensified, and the surprises have gotten
+                bigger and better.</p>
+        </article>
+
+    </main>
+
+       
+       
+       <footer>
+        <div class="footer">
+            <div class="footerBlock">
+                <div class="blocks">
+                    <h4>Connect with us</h4>
+                    <p>
+                        <a href="https://www.instagram.com/sdspiritsfestival/"><img src="../images/instagram.svg" alt="instagram icon"></a>
+                        <a href="https://twitter.com/spiritsfestival"><img src="../images/twitter.svg" alt="twitter icon"></a>
+                        <a href="https://www.facebook.com/SanDiegoSpiritsFestival"><img src="../images/facebook.svg" alt="facebook icon"></a>
+                        <a href="https://www.pinterest.com/spiritsfestival/"> <img src="../images/pinterest.svg" alt="pinterest icon"></a>
+                    </p>
+                    <p><a href="mailto:info@sandiegospiritsfestival.com.com">email: sandiegospiritsfestival.com</a></p>
+                    <p><a href="faq.html">Have a question? Check out our FAQ page.</a></p>
+                </div>
+                <div class="blocks">
+                    <form action="#" method="post" id="newsletter">
+                        <h4>
+                            <label for="newsletterEmail">Subscribe</label>
+                        </h4>
+                        <div class="newsletterInput"><input type="email" name="newsletterEmail" id="newsletterEmail" placeholder="Email address..." required><button type="submit" value="submit"><i class="fas fa-arrow-right"></i></button></div>
+                        <p>Subscribe to receive the latest announcements, networking invitations &amp; more!</p>
+                    </form>
+                </div>
+            </div>
+            <p>Copyright &copy; 2020 FEWD1 Group 7</p>
+        </div>
+    </footer>
+                
+    
+</body>
+</html>

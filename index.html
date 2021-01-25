@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="San Diego Spirits Festival attracts high-profile members of the spirits and culinary trade, affluent consumers and local bar and restaurateurs who are passionate about San Diego and the West coast’s burgeoning cocktail and culinary scene.">
+    <meta name="keywords" content="weekend, event, cocktails, bartending, marketing, networking, liquor, festival, launches, entertainment, fun, lifestyle, tasting, California, affluent, consumers, restauranteurs, passion, distillers, culinary, sponsor, spirits, competition, international, craft">
+    <meta name="author" content="Kristen">    
+    <title>SD Spirits Festival | Sept. 11-12, 2021</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    
+    
+     <!--Emily: Embedding the header background image was the only solution I could come up with for the problem I had, which was there was a flicker each time you visited the page due to image loading time. Image is optimized. I think Google Font & Font Awesome loading before the image cause the delay-->  
+       
+    <style>
+        header.main {background: url(images/headerBG-mobile.jpg) no-repeat top center #1d2f3b;}
+        
+        @media screen and (min-width: 796px) {
+            
+            header.main {
+                background: url(images/headerBG.jpg) no-repeat top center #1d2f3b;
+                background-size: cover;
+                }
+        }
+    </style>
+    
+</head>
+
+<body>
+   
+        <header class="main">
+            <h1><a href="index.html"><img src="images/logo-4.svg" alt="SD Spirits Festival Logo"></a></h1>
+            <div class="btn">
+                <a href="pages/checkout01.html">Buy Now</a>
+            </div>
+            <nav id="indexMenu">
+                <label for="showMenu"><span class="fas fa-bars" aria-hidden="true"></span></label>
+                <input type="checkbox" id="showMenu" role="button">
+                <ul class="mainMenu">
+                    <li>
+                        <a class="centerMenu" href="pages/event.html">Event <span class="caretDown hideMe"></span></a><label for="showSubmenuEvent"><span class="caretDown"></span></label><input type="checkbox" id="showSubmenuEvent">
+                        <ul id="sub1"><li><a href="pages/pastEvents.html">Past Events</a></li></ul>
+                    </li>
+                    <li><a href="pages/tickets.html">Tickets</a></li>
+                    <li><a href="pages/competition.html">Competition</a></li>
+                    <li><a href="pages/exhibitors.html">Exhibitors</a></li>
+                    <li><a href="pages/sponsors.html">Sponsors</a></li>
+                    <li>     
+                    <a class="centerMenu" href="pages/aboutUs.html">About Us <span class="caretDown hideMe"></span></a><label for="showSubmenuAbout"><span class="caretDown"></span></label>
+                    <input type="checkbox" id="showSubmenuAbout">
+                    <ul id="sub2"><li><a href="pages/contactUs.html" class="drop">Contact Us</a></li></ul>
+                    </li>
+                    <li><a href="pages/faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main class="default">
+            <div class="heroImg">
+                <img src="images/heroImage-1.jpg" alt="bartenders working">
+            </div> 
+            <section class="info">
+                <h1 class="festivalName">12th Annual San Diego Spirits Festival</h1>
+                <div class="infoBlock">
+                    <div class="blocks">
+                        <a href="pages/event.html"><img src="images/calendar.svg" alt="calendar icon"></a>
+                        <h2>Saturday, Sept. 11<br>2PM to 6PM</h2>
+                        <h2>Sunday, Sept. 12<br>1PM to 5PM</h2>
+                    </div>
+                    <div class="blocks">
+                        <a href="pages/tickets.html"><img src="images/ticket.svg" alt="ticket icon"></a>
+                        <h2>General Admission<br>starting at $70</h2>
+                        <h2>VIP Experience<br>starting at $110</h2>
+                    </div>
+                    <div class="blocks">
+                        <a href="pages/contactUs.html"><img src="images/map.svg" alt="map icon"></a>
+                        <h2>Port Pavilion<br>on Broadway Pier</h2>
+                        <h2>1000 N. Harbor Dr.<br>San Diego, CA 92101</h2>
+                    </div>
+                </div>
+            </section>
+        </main>
+    
+        <footer>
+            <div class="footer">
+                <div class="footerBlock">
+                    <div class="blocks">
+                        <h4>Connect with us</h4>
+                        <p>
+                            <a href="https://www.instagram.com/sdspiritsfestival/"><img src="images/instagram.svg" alt="instagram icon"></a>
+                            <a href="https://twitter.com/spiritsfestival"><img src="images/twitter.svg" alt="twitter icon"></a>
+                            <a href="https://www.facebook.com/SanDiegoSpiritsFestival"><img src="images/facebook.svg" alt="facebook icon"></a>
+                            <a href="https://www.pinterest.com/spiritsfestival/"> <img src="images/pinterest.svg" alt="pinterest icon"></a>
+                        </p>
+                        <p><a href="mailto:info@sandiegospiritsfestival.com.com">email: sandiegospiritsfestival.com</a></p>
+                        <p><a href="pages/faq.html">Have a question? Check out our FAQ page.</a></p>
+                    </div>
+                    <div class="blocks">
+                        <form action="#" method="post" id="newsletter">
+                            <h4>
+                                <label for="newsletterEmail">Subscribe</label>
+                            </h4>
+                            <div class="newsletterInput"><input type="email" name="newsletterEmail" id="newsletterEmail" placeholder="Email address..." required><button type="submit" value="submit"><i class="fas fa-arrow-right"></i></button></div>
+                            <p>Subscribe to receive the latest announcements, networking invitations &amp; more!</p>
+                        </form>
+                    </div>
+                </div>
+                <p>Copyright &copy; 2020 FEWD1 Group 7</p>
+            </div>
+        </footer>
+</body>
+</html>

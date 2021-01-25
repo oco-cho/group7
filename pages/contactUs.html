@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" id="contactUsHeight">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="How to contact us">
+    <meta name="keywords" content="contact us, location, phone number, address, customer service, question, advertising, spirits, festival, alcohol, San Diego">
+    <meta name="author" content="Mehrzad Hendi">
+    <title>San Diego Spirits Festival | Contact Us</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+    <link rel="stylesheet" href="../styles/style.css">
+    
+    <!--Emily: Embedding the header background image was the only solution I could come up with for the problem I had, which was there was a flicker each time you visited the page due to image loading time. Image is optimized. I think Google Font & Font Awesome loading before the image cause the delay--> 
+    
+    <style>
+        header.main {background: url(../images/headerBG-mobile.jpg) no-repeat top center #1d2f3b;}
+        
+        @media screen and (min-width: 796px) {
+            
+            header.main {
+                background: url(../images/headerBG.jpg) no-repeat top center #1d2f3b;
+                background-size: cover;
+                }
+        }
+    </style>
+    
+</head>
+
+<body>
+    <header class="main">
+            <h1><a href="../index.html"><img src="../images/logo-4.svg" alt="SD Spirits Festival Logo"></a></h1>
+            <div class="btn">
+                <a href="checkout01.html">Buy Now</a>
+            </div>
+            <nav>
+                <label for="showMenu"><span class="fas fa-bars" aria-hidden="true"></span></label>
+                <input type="checkbox" id="showMenu" role="button">
+                <ul class="mainMenu" id="contactUsPg">
+                    <li>
+                        <a class="centerMenu" href="event.html">Event <span class="caretDown hideMe"></span></a><label for="showSubmenuEvent"><span class="caretDown"></span></label><input type="checkbox" id="showSubmenuEvent">
+                        <ul id="sub1"><li><a href="pastEvents.html">Past Events</a></li></ul>
+                    </li>
+                    <li><a href="tickets.html">Tickets</a></li>
+                    <li><a href="competition.html">Competition</a></li>
+                    <li><a href="exhibitors.html">Exhibitors</a></li>
+                    <li><a href="sponsors.html">Sponsors</a></li>
+                    <li>     
+                    <a class="centerMenu" href="aboutUs.html">About Us <span class="caretDown hideMe"></span></a><label for="showSubmenuAbout"><span class="caretDown"></span></label>
+                    <input type="checkbox" id="showSubmenuAbout">
+                    <ul id="sub2"><li><a href="contactUs.html" class="drop">Contact Us</a></li></ul>
+                    </li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="featured">
+		<div id="p1">
+		<p>If you have any inquiries about the San Diego Spirits Festival, please contact us:</p>
+		</div>
+    <form action="#" id="ContactUsForm" method="post">
+        <fieldset>           
+       
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="tel">Telephone:</label>
+            <input type="tel" id="tel" name="phone">
+            
+            <label for="msg"> Message:</label>
+            <textarea name="msg" maxlength = "150" id="msg"></textarea>
+            
+            <div class="checks">
+                <label for="copyEmail"><input type="checkbox" id="copyEmail" name="copy of email"> Send copy to my email</label>
+            </div>
+            
+            <input type="submit" id="submit" value="Contact Us">
+        </fieldset>
+    </form>
+	
+	<div id="p4">
+			<p> 
+				Please be advised that photographs and video will be taken at the Festival for use on the San Diego Spirits Festival website and in the press, San Diego Spirits Festival marketing materials and other publications. By entering the Festival, you consent to San Diego Spirits Festival photographing and video graphing your image and likeness.
+			</p>
+		</div>
+	
+	<div id="p2_p3">       
+		 <p>
+			San Diego Spirits Festival was founded and launched in San Diego in 2009 by Liz Edwards. San Diego Spirits Festival is a nationally acclaimed celebration of cocktail culture and is the premier West Coast spirits festival held on the beautiful San Diego bay. With bartender competitions, tastings, seminars and parties, the festival offers a one-of-a-kind opportunity for brands to be supported and gain recognition among San Diego’s cocktail and culinary community and beyond. 
+		</p>
+		
+		<p>We want to build relationships and are willing to discuss ideas that are fresh and exciting!</p>
+		
+		<p> <br>
+				Address:
+				<br>
+				Mailing Address: 5580 La Jolla Blvd, #436
+				<br>
+				La Jolla, CA 92037 USA
+				<br>
+				 Venue:  San Diego Spirits Festival:
+				 <br>
+				Port Pavilion on Broadway Pier
+				<br>
+				1000 N. Harbor Dr. San Diego, CA 92101
+				<br>
+				 General Contact:
+				 <br>
+				 (858) 551 1605
+		</p>
+		</div>
+		<br>
+		
+</section>
+
+       
+       
+       <footer>
+        <div class="footer">
+            <div class="footerBlock">
+                <div class="blocks">
+                    <h4>Connect with us</h4>
+                    <p>
+                        <a href="https://www.instagram.com/sdspiritsfestival/"><img src="../images/instagram.svg" alt="instagram icon"></a>
+                        <a href="https://twitter.com/spiritsfestival"><img src="../images/twitter.svg" alt="twitter icon"></a>
+                        <a href="https://www.facebook.com/SanDiegoSpiritsFestival"><img src="../images/facebook.svg" alt="facebook icon"></a>
+                        <a href="https://www.pinterest.com/spiritsfestival/"> <img src="../images/pinterest.svg" alt="pinterest icon"></a>
+                    </p>
+                    <p><a href="mailto:info@sandiegospiritsfestival.com.com">email: sandiegospiritsfestival.com</a></p>
+                    <p><a href="faq.html">Have a question? Check out our FAQ page.</a></p>
+                </div>
+                <div class="blocks">
+                    <form action="#" method="post" id="newsletter">
+                        <h4>
+                            <label for="newsletterEmail">Subscribe</label>
+                        </h4>
+                        <div class="newsletterInput"><input type="email" name="newsletterEmail" id="newsletterEmail" placeholder="Email address..." required><button type="submit" value="submit"><i class="fas fa-arrow-right"></i></button></div>
+                        <p>Subscribe to receive the latest announcements, networking invitations &amp; more!</p>
+                    </form>
+                </div>
+            </div>
+            <p>Copyright &copy; 2020 FEWD1 Group 7</p>
+        </div>
+    </footer>
+                
+    
+</body>
+</html>

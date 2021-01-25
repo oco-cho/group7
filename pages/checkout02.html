@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eventbrite - San Diego Spirits Festival presents 12TH SAN DIEGO SPIRITS FESTIVAL, September 11-12, 2021 -  at Port Pavilion on Broadway Pier, San Diego, CA. Find event and ticket information.">
+    <meta name="keywords" content="weekend, event, cocktails, bartending, Port Pavilon, networking, liquor, festival, launches, entertainment, fun, lifestyle, tasting, California, September 11-12, San Diego, restauranteurs, passion, distillers, culinary, sponsor, spirits, competition, Eventbrite, craft">
+    <meta name="author" content="Kristen">  
+    <title>Eventbrite | San Diego Spirits Festival Checkout</title>
+    <link rel="icon" type="image/x-icon" href="../images/faviconEventbrite.ico" />
+    <link rel="stylesheet" href="../styles/style.css" type="text/css">
+</head>
+<body class="checkoutPages">
+    
+       <main>
+        
+            <header>
+                <h1>Checkout</h1>
+                <p>Time left 9:59</p>
+            </header>
+                
+            <section>    
+                <form action="checkout03.html" id="checkoutTickets2">
+                <!--Emily: removed method attribute so my button would work online. With method I get a 405--> 
+                        <fieldset>
+                            <legend><h2>Contact information</h2></legend>
+                            <p>Continue as guest or <a href="#">login</a> for a faster experience.</p>
+                            <div class="twoColFlex"><div class="field">
+                                    <input type="text" name="firstName" id="firstName" placeholder=" " required>
+                                    <label for="firstName">First name<span>*</span></label> 
+                                </div>
+                                <div class="field">
+                                    <input type="text" name="lastName" id="lastName" placeholder=" " required>
+                                    <label for="lastName">Last name<span>*</span></label>
+                                </div>
+                                <div class="field">
+                                    <input type="email" name="email" id="email" placeholder=" " required>
+                                    <label for="email">Email addresss<span>*</span></label>
+                                </div>
+                                <div class="field">
+                                    <input type="email" name="emailConfirm" id="emailConfirm" placeholder=" " required>
+                                    <label for="emailConfirm">Confirm email<span>*</span></label>
+                                </div>  
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend><h2>Payment method</h2></legend>
+                            <ul>
+                                <li>
+                                <label class="checkoutHeader" for="check1"><img class="moveRt" src="../images/radioUnselected.svg" alt=""></label><input type="checkbox" name="check1" id="check1">
+
+                                <ul class="twoColFlex" id="ccSubForm">
+                        
+                                        <li class="field">
+                                            <input type="text" name="ccNum" id="ccNum" placeholder=" ">
+                                            <label for="ccNum">Card number<span>*</span></label>
+                                        </li>
+                                        <li class="field">
+                                            <input type="text" name="ccExpiry" id="ccExpiry" placeholder=" " pattern="\d{4}" title="MMDD">
+                                            <label for="ccExpiry">Expiration date<span>*</span></label>
+                                        </li>
+                                        <li class="field">
+                                            <input type="text" name="ccSecurity" id="ccSecurity" placeholder=" " pattern="\d{3}" title="Please enter your 3 digit credit card security code">
+                                            <label for="ccSecurity">CSC<span>*</span></label>
+                                        </li>
+                                        <li class="field">
+                                            <input type="text" name="ccZip" id="ccZip" placeholder=" " pattern="\d{5}" title="Please enter your 5 digit zip code">
+                                            <label for="ccZip">Zip/Postal<span>*</span></label>
+                                        </li>
+                                </ul> 
+                                </li>
+                                <li>
+                                    <label class="checkoutHeader" for="check2"><img class="moveRt" src="../images/radioUnselected.svg" alt=""></label><input type="checkbox" name="check2" id="check2">
+                                    <ul id="paypal">
+                                        <li><p>Sign into your PayPal account to complete your purchase</p></li>
+                                        <li><a href="https://www.paypal.com/us/signin">PayPal</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </fieldset>
+                        <fieldset>
+                           <ul>
+                            <li>
+                                <input type="checkbox" name="eventbriteNews" id="eventbriteNews"><label for="eventbriteNews">Keep me updated on the latest news, events, and exclusive offers from this event organizer.</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="eventbriteEmail" id="eventbriteEmail"><label for="eventbriteEmail">Eventbrite can send me emails about the best events happening nearby.</label>
+                            </li>
+                            <li>
+                                <p>By clicking "Place Order", I accept the <a href="#">Terms of Service</a> and have read the <a href="#">Privacy Policy</a>. I agree that Eventbrite may <a href="#">share my information</a> with the event organizer.</p>
+                            </li>
+                            <li>
+                                <p>Powered by <span class="logoEventbrite">eventbrite</span></p>
+                            </li>
+                            </ul>
+                        </fieldset>
+                    </form>
+            </section>  
+            
+            <section>
+                <figure>
+                    <img src="../images/checkoutImage.jpg" alt="partygoers">
+                </figure>
+               
+                <header>
+                    <h2>Order Summary</h2>
+                </header>    
+                        <div class="orderSumFlex">
+                            <div class="textFlex">
+                                <ul>
+                                    <li>Subtotal</li>
+                                    <li>Fees</li>
+                                    <li>Total</li>
+                                </ul>
+                            </div>
+                            <div class="textFlex">
+                                 <ul>
+                                    <li>$</li>
+                                    <li>$</li>
+                                    <li>$</li>
+                                </ul>
+                            </div>
+                        </div>
+            
+            </section>
+            <section>
+                    <p><a href="tickets.html"><span class="fas fa-window-close"></span>  Change your mind? Return to the Festival Page.</a></p>
+                    <button type="submit" form="checkoutTickets2">Place Order</button>
+            </section>
+    </main>
+    
+</body>
+</html>
